@@ -11,9 +11,7 @@ phases:
       - echo "Zipping deployment package..."
       - yarn build
       - cd dist
-      - zip -r9 ../deployment_package.zip
-      - cd ..
-      - zip -g deployment_package.zip src
+      - zip -r deployment_package.zip dist
       # - cd lib
       # - zip -r9 ../deployment_package.zip .
       # - cd ..
