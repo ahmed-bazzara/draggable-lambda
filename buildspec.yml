@@ -10,7 +10,6 @@ phases:
     commands:
       - echo "Zipping deployment package..."
       - yarn run tsc
-      - cd dist
       - zip -r deployment_package.zip dist
       # - cd lib
       # - zip -r9 ../deployment_package.zip .
