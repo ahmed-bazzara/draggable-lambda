@@ -1,5 +1,5 @@
 export const buildResponse = (statusCode: number, body?: any) => {
-  console.log('status code:', statusCode);
+  console.log('status code:', statusCode, statusCode);
   
   return {
     statusCode,
